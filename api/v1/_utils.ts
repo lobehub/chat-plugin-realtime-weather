@@ -1,7 +1,5 @@
 import { Response, WeatherParams, WeatherResult } from '../../type';
 
-type PluginRunner<Params = object, Result = any> = (params: Params) => Promise<Result>;
-
 const weatherBaseURL = 'https://restapi.amap.com/v3/weather/weatherInfo';
 
 const citySearchURL = 'https://restapi.amap.com/v3/config/district';
@@ -18,10 +16,10 @@ const fetchCityCode = async (keywords: string): Promise<string> => {
   return data.districts[0].adcode;
 };
 
-const fetchWeather: PluginRunner<WeatherParams, WeatherResult> = async ({
+const fetchWeather = async ({
   city,
   extensions = 'all',
-}) => {
+}: WeatherParams): Promise<WeatherResult> => {
   const cityCode = await fetchCityCode(city);
 
   const URL = `${weatherBaseURL}?city=${cityCode}&extensions=${extensions}&key=${KEY}`;
