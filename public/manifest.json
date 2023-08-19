@@ -1,0 +1,20 @@
+{
+  "name": "realtimeWeather",
+  "schema": {
+    "description": "获取当前天气情况",
+    "name": "realtimeWeather",
+    "parameters": {
+      "properties": {
+        "city": {
+          "description": "城市名称",
+          "type": "string"
+        }
+      },
+      "required": ["city"],
+      "type": "object"
+    }
+  },
+  "server": {
+    "url": "https://realtime-weather.chat-plugin.lobehub.com/api/v1"
+  }
+}
