@@ -32,7 +32,7 @@ export default defineConfig({
   // locales: [{ id: 'en-US', name: 'English' }],
   mfsu: {},
   npmClient: 'pnpm',
-
+  outputPath: 'docs-dist',
   // ssr: isProduction ? {} : false,
   styles: [
     `html, body { background: transparent;  }
