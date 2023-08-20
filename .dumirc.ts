@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 import { Github } from 'lucide-react';
 
-import { homepage, name } from './package.json';
+import { homepage } from './package.json';
 
 const themeConfig = {
   actions: [
@@ -18,17 +18,18 @@ const themeConfig = {
     },
   ],
   footer: 'Made with 🤯 by LobeHub',
-  name,
+  name: 'Realtime Weather',
   socialLinks: {
     discord: 'https://discord.gg/AYFPHvv2jT',
     github: homepage,
   },
-  title: 'Lobe UI',
 };
 
 export default defineConfig({
   extraBabelPlugins: ['babel-plugin-antd-style'],
-  favicons: ['https://npm.elemecdn.com/@lobehub/assets-favicons/assets/favicon.ico'],
+  favicons: [
+    'https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/rainbow.webp',
+  ],
   // locales: [{ id: 'en-US', name: 'English' }],
   mfsu: {},
   npmClient: 'pnpm',
@@ -42,5 +43,5 @@ export default defineConfig({
   }`,
   ],
   themeConfig,
-  title: 'Lobe Chat RealTime Weather Plugin',
+  title: 'RealTime Weather - Lobe Chat Plugin',
 });

@@ -5,6 +5,9 @@
   "homepage": "https://github.com/lobehub/chat-plugin-realtime-weather",
   "repository": "https://github.com/lobehub/chat-plugin-realtime-weather.git",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "father build",
     "ci": "npm run lint && npm run type-check",
@@ -20,7 +23,7 @@
     "prepare": "husky install",
     "prettier": "prettier -c --write \"api/**/*\"",
     "release": "semantic-release",
-    "start": "vercel dev",
+    "start": "vercel dev --listen 3400",
     "test": "vitest --passWithNoTests",
     "test:coverage": "vitest --coverage  --passWithNoTests",
     "type-check": "tsc --noEmit"
@@ -38,6 +41,9 @@
   ],
   "dependencies": {
     "@lobehub/chat-plugin-sdk": "^1",
+    "antd-style": "^3",
+    "i18next": "^23",
+    "i18next-browser-languagedetector": "^7",
     "react-i18next": "^13",
     "react-layout-kit": "^1"
   },
@@ -54,6 +60,8 @@
     "eslint": "^8",
     "father": "^4.3.1",
     "husky": "^8",
+    "i18next": "^23",
+    "i18next-browser-languagedetector": "^7",
     "lint-staged": "^13",
     "lucide-react": "latest",
     "prettier": "^2",
@@ -61,5 +69,9 @@
     "typescript": "^5",
     "vercel": "^28",
     "vitest": "latest"
+  },
+  "peerDependencies": {
+    "antd": "^5",
+    "react": "^18"
   }
 }

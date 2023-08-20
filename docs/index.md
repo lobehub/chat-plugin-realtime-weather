@@ -4,4 +4,4 @@ hero:
   description: Realtime Weather Plugin for LobeChat
 ---
 
-<code src="./demo.tsx" ></code>
+<code src="./demo.tsx" inline ></code>
