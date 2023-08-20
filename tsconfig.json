@@ -4,6 +4,7 @@
     "target": "ES5",
     "lib": ["esnext", "DOM"],
     "sourceMap": true,
+    "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",

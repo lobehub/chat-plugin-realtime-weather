@@ -8,6 +8,7 @@
   "scripts": {
     "build": "father build",
     "ci": "npm run lint && npm run type-check",
+    "dev": "father dev",
     "docs:build": "dumi build",
     "docs:dev": "PORT=8110 dumi dev",
     "doctor": "father doctor",
@@ -57,7 +58,7 @@
     "prettier": "^2",
     "semantic-release": "^21",
     "typescript": "^5",
-    "vercel": "^31.2.3",
+    "vercel": "^28",
     "vitest": "latest"
   }
 }
