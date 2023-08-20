@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;1.2.2](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.2.1...v1.2.2)
+
+<sup>Released on **2023-08-20**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix release bug.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix release bug ([c8f176f](https://github.com/lobehub/chat-plugin-realtime-weather/commit/c8f176f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.2.1](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.2.0...v1.2.1)
 
 <sup>Released on **2023-08-20**</sup>
