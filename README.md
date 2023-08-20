@@ -148,12 +148,12 @@ This project is [MIT](./LICENSE) licensed.
 
 <!-- ciTest -->
 
-[ci-test-shield]: https://github.com/lobehub/chat-plugin-realtime-weather/workflows/Test%20CI/badge.svg
+[ci-test-shield]: https://github.com/lobehub/chat-plugin-realtime-weather/actions/workflows/test.yml/badge.svg
 [ci-test-url]: https://github.com/lobehub/chat-plugin-realtime-weather/actions/workflows/test.yml
 
 <!-- ciRelease -->
 
-[ci-release-shield]: https://github.com/lobehub/chat-plugin-realtime-weather/workflows/Release%20CI/badge.svg
+[ci-release-shield]: https://github.com/lobehub/chat-plugin-realtime-weather/actions/workflows/release.yml/badge.svg
 [ci-release-url]: https://github.com/lobehub/chat-plugin-realtime-weather/actions/workflows/release.yml
 
 <!-- contributors -->
