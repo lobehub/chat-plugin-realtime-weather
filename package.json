@@ -8,6 +8,7 @@
   "scripts": {
     "build": "father build",
     "ci": "npm run lint && npm run type-check",
+    "docs:build": "dumi build",
     "docs:dev": "PORT=8110 dumi dev",
     "doctor": "father doctor",
     "lint": "npm run lint:js && npm run lint:prettier",
