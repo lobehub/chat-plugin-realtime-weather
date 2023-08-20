@@ -17,5 +17,8 @@
   },
   "server": {
     "url": "https://realtime-weather.chat-plugin.lobehub.com/api/v1"
+  },
+  "ui": {
+    "url": "https://registry.npmmirror.com/@lobehub/chat-plugin-realtime-weather/latest/files"
   }
 }

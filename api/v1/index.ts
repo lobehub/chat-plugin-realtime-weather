@@ -1,4 +1,5 @@
-import { WeatherParams } from '../../type';
+import { ErrorType, createErrorResponse } from '@lobehub/chat-plugin-sdk';
+
 import fetchWeather from './_utils';
 
 export const config = {
@@ -6,9 +7,9 @@ export const config = {
 };
 
 export default async (req: Request) => {
-  if (req.method !== 'POST') return new Response('Method Not Allowed', { status: 405 });
+  if (req.method !== 'POST') return createErrorResponse(ErrorType.MethodNotAllowed);
 
-  const args = (await req.json()) as WeatherParams;
+  const args = await req.json();
 
   const result = await fetchWeather(args);
 
