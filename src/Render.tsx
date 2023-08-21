@@ -45,6 +45,7 @@ const Render = memo<PluginRenderProps<WeatherResult>>(({ content }) => {
             ]}
             dataSource={item.casts}
             pagination={false}
+            rowKey={'date'}
           />
         </Flexbox>
       ))}
