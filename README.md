@@ -2,18 +2,19 @@
 
 <div align="center">
 
-<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/robot.webp">
+<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/puzzle-piece.webp">
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/rainbow.webp">
+<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/umbrella.webp">
 
-<h1>RealTime Weather Plugin for LobeChat</h1>
+<h1>Realtime Weather<br/><sup>LobeChat Plugin</sup></h1>
 
-RealTime Weather Plugin 是一个功能强大的插件，通过实时获取天气数据，为 LobeChat 提供准确、实用的天气信息，并能够根据用户位置自动更新，为用户提供个性化的天气预报体验。
+一个功能强大的插件，通过实时获取天气数据，为 LobeChat 提供准确、实用的天气信息<br/>并能够根据用户位置自动更新，为用户提供个性化的天气预报体验。
 
 [Changelog](./CHANGELOG.md) · [Report Bug][issues-url] · [Request Feature][issues-url]
 
 <!-- SHIELD GROUP -->
 
+[![plugin][plugin-shield]][plugin-url]
 [![release][release-shield]][release-url]
 [![releaseDate][release-date-shield]][release-date-url]
 [![ciTest][ci-test-shield]][ci-test-url]
@@ -126,6 +127,11 @@ $ pnpm start
 
 Copyright © 2023 [LobeHub][profile-url]. <br />
 This project is [MIT](./LICENSE) licensed.
+
+<!-- PLUGIN GROUP -->
+
+[plugin-shield]: https://img.shields.io/badge/%F0%9F%A4%AF_LobeChat-plugin-cyan
+[plugin-url]: https://github.com/lobehub/lobe-chat-plugins
 
 <!-- LINK GROUP -->
 
