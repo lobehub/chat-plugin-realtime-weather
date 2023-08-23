@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version&nbsp;1.4.0](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.3.0...v1.4.0)
+
+<sup>Released on **2023-08-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Add api field.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add api field ([41306fd](https://github.com/lobehub/chat-plugin-realtime-weather/commit/41306fd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;1.3.0](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.2.2...v1.3.0)
 
 <sup>Released on **2023-08-21**</sup>
