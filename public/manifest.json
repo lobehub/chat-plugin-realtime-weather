@@ -1,5 +1,6 @@
 {
   "name": "realtimeWeather",
+  "identifier": "realtimeWeather",
   "version": "1",
   "schema": {
     "description": "获取当前天气情况",
