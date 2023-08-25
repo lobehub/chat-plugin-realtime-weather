@@ -57,19 +57,6 @@ TOBE DONE
 
 ## 🤯 Usage
 
-### Compile with NextJS
-
-by work correct with nextjs ssr, add `transpilePackages: ['@lobehub/chat-plugin-realtime-weather']` to `next.config.js`. For example:
-
-```js
-// next.config.js
-const nextConfig = {
-  // ...other config
-
-  transpilePackages: ['@lobehub/chat-plugin-realtime-weather'],
-};
-```
-
 <div align="right">
 
 [![][back-to-top]](#readme-top)
