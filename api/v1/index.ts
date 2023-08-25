@@ -1,4 +1,4 @@
-import { ErrorType, createErrorResponse } from '@lobehub/chat-plugin-sdk';
+import { PluginErrorType, createErrorResponse } from '@lobehub/chat-plugin-sdk';
 
 import fetchWeather from './_utils';
 
@@ -7,7 +7,7 @@ export const config = {
 };
 
 export default async (req: Request) => {
-  if (req.method !== 'POST') return createErrorResponse(ErrorType.MethodNotAllowed);
+  if (req.method !== 'POST') return createErrorResponse(PluginErrorType.MethodNotAllowed);
 
   const args = await req.json();
 
