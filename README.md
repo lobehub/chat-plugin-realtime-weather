@@ -8,7 +8,7 @@
 
 <h1>Realtime Weather<br/><sup>LobeChat Plugin</sup></h1>
 
-一个功能强大的插件，通过实时获取天气数据，为 LobeChat 提供准确、实用的天气信息<br/>并能够根据用户位置自动更新，为用户提供个性化的天气预报体验。
+By obtaining real-time weather data, it provides practical weather information and can automatically update based on the user's location
 
 [Changelog](./CHANGELOG.md) · [Report Bug][issues-url] · [Request Feature][issues-url]
 
