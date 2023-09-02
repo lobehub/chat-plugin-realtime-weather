@@ -1,5 +1,5 @@
 {
-  "identifier": "realtimeWeather",
+  "identifier": "realtime-weather",
   "version": "1",
   "api": [
     {
