@@ -35,6 +35,14 @@ const nextConfig = {
       },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/docs',
+        destination: '/docs/index.html' // 你的 dumi 构建产物的 URL
+      },
+    ]
+  },
 };
 
 export default nextConfig;

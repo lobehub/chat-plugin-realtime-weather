@@ -43,3 +43,4 @@ build
 .vercel
 .dumi
 .next
+/public/docs

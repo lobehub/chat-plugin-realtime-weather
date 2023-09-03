@@ -1,15 +1,12 @@
-import { fetchPluginMessage } from '@lobehub/chat-plugin-sdk';
-import { Skeleton } from 'antd';
-import { memo } from 'react';
-import useSWR from 'swr';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
-import Render from '@/Render';
-import { WeatherResult } from '@/type';
+export default () => {
+  const router = useRouter();
 
-const Home = memo(() => {
-  const { isLoading, data } = useSWR<WeatherResult>('fetchDataFromChat', fetchPluginMessage);
+  useEffect(() => {
+    router.replace('/docs');
+  }, []);
 
-  return isLoading || !data ? <Skeleton active /> : <Render content={data} name={'test'} />;
-});
-
-export default Home;
+  return null;
+};
