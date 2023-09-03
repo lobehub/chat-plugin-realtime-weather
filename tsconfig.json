@@ -25,5 +25,5 @@
     "isolatedModules": true
   },
   "exclude": ["node_modules"],
-  "include": ["docs", ".dumi/**/*", "docs/.dumirc.ts", "src"]
+  "include": ["src"]
 }
