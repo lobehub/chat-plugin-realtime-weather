@@ -6,10 +6,10 @@
   "homepage": "https://github.com/lobehub/chat-plugin-realtime-weather",
   "repository": "https://github.com/lobehub/chat-plugin-realtime-weather.git",
   "scripts": {
-    "build": "next build",
+    "build": "npm run docs:build && next build",
     "ci": "npm run lint && npm run type-check",
     "dev": "next dev -p 3410",
-    "docs:build": "npm run build --prefix ./docs",
+    "docs:build": "cd docs && npm run build",
     "docs:dev": "npm run dev --prefix ./docs",
     "lint": "npm run lint:js && npm run lint:prettier",
     "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx ",
