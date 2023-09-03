@@ -18,7 +18,7 @@ const useStyles = createStyles(({ css, token }) => ({
 }));
 
 const i18n = createI18nNext();
-const Render = memo<PluginRenderProps<WeatherResult>>(({ content }) => {
+const Render = memo<{ content: WeatherResult }>(({ content }) => {
   const { t } = useTranslation('common');
 
   const { styles } = useStyles();

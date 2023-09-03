@@ -5,7 +5,7 @@
     "lib": ["esnext", "DOM"],
     "sourceMap": true,
     "skipDefaultLibCheck": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "baseUrl": ".",
     "types": ["node"],
     "allowSyntheticDefaultImports": true,
@@ -17,10 +17,14 @@
     "skipLibCheck": true,
     "strict": true,
     "paths": {
-      "@@/*": [".dumi/tmp/*"],
-      "@/*": ["src/*"],
-      "@lobehub/chat-plugin-realtime-weather": ["src"]
-    }
+      "@/*": ["src/*"]
+    },
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "isolatedModules": true
   },
-  "include": ["docs", "api", ".dumi/**/*", ".dumirc.ts"]
+  "exclude": ["node_modules"],
+  "include": ["docs", ".dumi/**/*", "docs/.dumirc.ts", "src"]
 }

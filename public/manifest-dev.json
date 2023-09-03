@@ -1,0 +1,29 @@
+{
+  "api": [
+    {
+      "url": "http://localhost:3410/api/v1",
+      "name": "fetchCurrentWeather",
+      "description": "获取当前天气情况",
+      "parameters": {
+        "properties": {
+          "city": {
+            "description": "城市名称",
+            "type": "string"
+          }
+        },
+        "required": [
+          "city"
+        ],
+        "type": "object"
+      }
+    }
+  ],
+  "gateway": "http://localhost:3410/api/gateway",
+  "identifier": "realtime-weather-dev",
+  "ui": {
+    "mode": "iframe",
+    "url": "http://localhost:3410",
+    "height": 310
+  },
+  "version": "1"
+}
