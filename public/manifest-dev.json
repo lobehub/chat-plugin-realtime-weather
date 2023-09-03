@@ -21,7 +21,6 @@
   "gateway": "http://localhost:3410/api/gateway",
   "identifier": "realtime-weather-dev",
   "ui": {
-    "mode": "iframe",
     "url": "http://localhost:3410/iframe",
     "height": 310
   },
