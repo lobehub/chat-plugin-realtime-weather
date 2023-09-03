@@ -1,4 +1,4 @@
-import { Response, WeatherParams, WeatherResult } from '../../src/type';
+import { Response, WeatherParams, WeatherResult } from '@/type';
 
 const weatherBaseURL = 'https://restapi.amap.com/v3/weather/weatherInfo';
 

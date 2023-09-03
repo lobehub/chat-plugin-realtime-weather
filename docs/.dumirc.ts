@@ -1,7 +1,9 @@
 import { defineConfig } from 'dumi';
 import { Github } from 'lucide-react';
 
-import { homepage } from './package.json';
+import { homepage } from '../package.json';
+
+const isProd = process.env.NODE_ENV === 'production';
 
 const themeConfig = {
   actions: [
@@ -30,10 +32,11 @@ export default defineConfig({
   favicons: [
     'https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/rainbow.webp',
   ],
-  // locales: [{ id: 'en-US', name: 'English' }],
   mfsu: {},
+  base: isProd ? '/docs/' : '/',
+  publicPath: isProd ? '/docs/' : '/',
   npmClient: 'pnpm',
-  outputPath: 'docs-dist',
+  outputPath: '../public/docs',
   // ssr: isProduction ? {} : false,
   styles: [
     `html, body { background: transparent;  }

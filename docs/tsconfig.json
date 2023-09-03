@@ -5,7 +5,7 @@
     "lib": ["esnext", "DOM"],
     "sourceMap": true,
     "skipDefaultLibCheck": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
@@ -16,14 +16,14 @@
     "skipLibCheck": true,
     "strict": true,
     "paths": {
-      "@/*": ["src/*"]
+      "@@/*": ["./dumi/tmp/*"],
+      "@/*": ["../src/*"]
     },
-    "allowJs": true,
     "noEmit": true,
     "incremental": true,
     "esModuleInterop": true,
     "isolatedModules": true
   },
   "exclude": ["node_modules"],
-  "include": ["src"]
+  "include": [".", ".dumi/**/*", ".dumirc.ts", "../src"]
 }

@@ -1,9 +1,7 @@
 {
-  "identifier": "realtime-weather",
-  "version": "1",
   "api": [
     {
-      "url": "https://realtime-weather.chat-plugin.lobehub.com/api/v1",
+      "url": "http://localhost:3410/api/v1",
       "name": "fetchCurrentWeather",
       "description": "获取当前天气情况",
       "parameters": {
@@ -20,8 +18,11 @@
       }
     }
   ],
+  "gateway": "http://localhost:3410/api/gateway",
+  "identifier": "realtime-weather-dev",
   "ui": {
-    "url": "https://realtime-weather.chat-plugin.lobehub.com/iframe",
+    "url": "http://localhost:3410/iframe",
     "height": 310
-  }
+  },
+  "version": "1"
 }

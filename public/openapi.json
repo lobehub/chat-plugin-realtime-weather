@@ -1,0 +1,151 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "LobeChat Plugins",
+    "description": "",
+    "version": "1.0.0"
+  },
+  "tags": [
+    {
+      "name": "官方插件"
+    },
+    {
+      "name": "官方插件/天气插件（RealTime Weather）"
+    }
+  ],
+  "paths": {
+    "/api/v1": {
+      "post": {
+        "summary": "查询天气",
+        "x-apifox-folder": "官方插件/天气插件（RealTime Weather）",
+        "x-apifox-status": "released",
+        "deprecated": false,
+        "description": "",
+        "tags": [
+          "官方插件/天气插件（RealTime Weather）"
+        ],
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "city": {
+                    "type": "string",
+                    "title": "城市"
+                  }
+                },
+                "required": [
+                  "city"
+                ],
+                "x-apifox-orders": [
+                  "city"
+                ],
+                "x-apifox-ignore-properties": []
+              },
+              "example": {
+                "city": "杭州"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {},
+                    "x-apifox-orders": [],
+                    "x-apifox-ignore-properties": []
+                  },
+                  "title": "天气"
+                },
+                "examples": {
+                  "1": {
+                    "summary": "成功示例",
+                    "value": [
+                      {
+                        "city": "杭州市",
+                        "adcode": "330100",
+                        "province": "浙江",
+                        "reporttime": "2023-08-17 23:01:56",
+                        "casts": [
+                          {
+                            "date": "2023-08-17",
+                            "week": "4",
+                            "dayweather": "小雨",
+                            "nightweather": "小雨",
+                            "daytemp": "33",
+                            "nighttemp": "24",
+                            "daywind": "东",
+                            "nightwind": "东",
+                            "daypower": "≤3",
+                            "nightpower": "≤3",
+                            "daytemp_float": "33.0",
+                            "nighttemp_float": "24.0"
+                          },
+                          {
+                            "date": "2023-08-18",
+                            "week": "5",
+                            "dayweather": "小雨",
+                            "nightweather": "小雨",
+                            "daytemp": "32",
+                            "nighttemp": "23",
+                            "daywind": "东北",
+                            "nightwind": "东北",
+                            "daypower": "4",
+                            "nightpower": "4",
+                            "daytemp_float": "32.0",
+                            "nighttemp_float": "23.0"
+                          },
+                          {
+                            "date": "2023-08-19",
+                            "week": "6",
+                            "dayweather": "小雨",
+                            "nightweather": "雷阵雨",
+                            "daytemp": "32",
+                            "nighttemp": "24",
+                            "daywind": "东",
+                            "nightwind": "东",
+                            "daypower": "4",
+                            "nightpower": "4",
+                            "daytemp_float": "32.0",
+                            "nighttemp_float": "24.0"
+                          },
+                          {
+                            "date": "2023-08-20",
+                            "week": "7",
+                            "dayweather": "雷阵雨",
+                            "nightweather": "多云",
+                            "daytemp": "33",
+                            "nighttemp": "25",
+                            "daywind": "东",
+                            "nightwind": "东",
+                            "daypower": "≤3",
+                            "nightpower": "≤3",
+                            "daytemp_float": "33.0",
+                            "nighttemp_float": "25.0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-run-in-apifox": "https://apifox.com/web/project/3171264/apis/api-103858950-run"
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  },
+  "servers": []
+}

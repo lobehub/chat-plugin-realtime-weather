@@ -1,5 +1,4 @@
-import Render from '@lobehub/chat-plugin-realtime-weather';
-
+import Render from '../../src/Render';
 import { data } from './data';
 
 export default () => {
