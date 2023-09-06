@@ -1,4 +1,4 @@
-import { PluginRenderProps } from '@lobehub/chat-plugin-sdk';
+import { PluginRenderProps } from '@lobehub/chat-plugin-sdk/client';
 import { Table } from 'antd';
 import { createStyles } from 'antd-style';
 import { memo, useEffect } from 'react';

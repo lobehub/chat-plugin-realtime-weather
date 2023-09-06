@@ -1,4 +1,4 @@
-import { fetchPluginMessage } from '@lobehub/chat-plugin-sdk';
+import { fetchPluginMessage } from '@lobehub/chat-plugin-sdk/client';
 import { Skeleton } from 'antd';
 import { memo } from 'react';
 import useSWR from 'swr';
