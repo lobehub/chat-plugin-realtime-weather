@@ -2,6 +2,49 @@
 
 # Changelog
 
+### [Version 1.4.3](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.4.2...v1.4.3)
+
+<sup>Released on **2023-09-08**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: 重构为 iframe 模式.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ci, 修正 identifier 变更导致无法正常使用的问题, 兼容 SDK 导出变更.
+
+#### 💄 Styles
+
+- **misc**: Update.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: 重构为 iframe 模式, closes [#2](https://github.com/lobehub/chat-plugin-realtime-weather/issues/2) ([10e7686](https://github.com/lobehub/chat-plugin-realtime-weather/commit/10e7686))
+
+#### What's fixed
+
+- **misc**: Fix ci ([5cc400d](https://github.com/lobehub/chat-plugin-realtime-weather/commit/5cc400d))
+- **misc**: 修正 identifier 变更导致无法正常使用的问题 ([e7cf27f](https://github.com/lobehub/chat-plugin-realtime-weather/commit/e7cf27f))
+- **misc**: 兼容 SDK 导出变更 ([8594000](https://github.com/lobehub/chat-plugin-realtime-weather/commit/8594000))
+
+#### Styles
+
+- **misc**: Update ([00ed2a4](https://github.com/lobehub/chat-plugin-realtime-weather/commit/00ed2a4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.2](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.4.1...v1.4.2)
 
 <sup>Released on **2023-08-25**</sup>
