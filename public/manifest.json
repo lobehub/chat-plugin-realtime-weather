@@ -1,6 +1,4 @@
 {
-  "identifier": "realtime-weather",
-  "version": "1",
   "api": [
     {
       "url": "https://realtime-weather.chat-plugin.lobehub.com/api/v1",
@@ -13,15 +11,15 @@
             "type": "string"
           }
         },
-        "required": [
-          "city"
-        ],
+        "required": ["city"],
         "type": "object"
       }
     }
   ],
+  "identifier": "realtime-weather",
   "ui": {
     "url": "https://realtime-weather.chat-plugin.lobehub.com/iframe",
     "height": 310
-  }
+  },
+  "version": "1"
 }

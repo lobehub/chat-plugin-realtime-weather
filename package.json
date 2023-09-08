@@ -11,13 +11,12 @@
     "dev": "next dev -p 3410",
     "docs:build": "cd docs && npm run build",
     "docs:dev": "npm run dev --prefix ./docs",
-    "lint": "npm run lint:js && npm run lint:prettier",
-    "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx ",
-    "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx src/pages/api",
-    "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx src/pages/api",
+    "lint": "eslint \"{src,api,docs}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "lint:md": "remark . --quiet --frail --output",
     "lint:prettier": "prettier --check \\\"src/pages/api/**/*\\\" --end-of-line auto",
+    "lint:style": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "prepare": "husky install",
-    "prettier": "prettier -c --write \\\"src/pages/api/**/*\\\"",
+    "prettier": "prettier -c --write \"**/**\"",
     "release": "semantic-release",
     "start": "next start",
     "test": "vitest --passWithNoTests",
@@ -25,9 +24,22 @@
     "type-check": "tsc --noEmit"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
-    "**/*.{js,jsx,tsx,ts,less,md,json}": [
-      "prettier --write"
+    "*.md": [
+      "remark --quiet --output --",
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.json": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.{js,jsx}": [
+      "prettier --write",
+      "stylelint --fix",
+      "eslint --fix"
+    ],
+    "*.{ts,tsx}": [
+      "prettier --parser=typescript --write",
+      "stylelint --fix",
+      "eslint --fix"
     ]
   },
   "browserslist": [
@@ -36,23 +48,21 @@
     "not ie <= 10"
   ],
   "dependencies": {
-    "@lobehub/chat-plugin-sdk": "^1.15.0",
+    "@lobehub/chat-plugin-sdk": "^1",
     "@lobehub/chat-plugins-gateway": "^1",
     "@lobehub/ui": "latest",
-    "antd": "^5.8.6",
+    "antd": "^5",
     "antd-style": "^3",
     "i18next": "^23",
     "i18next-browser-languagedetector": "^7",
-    "next": "13.4.7",
-    "polished": "^4.2.2",
+    "next": "13",
     "query-string": "^8",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "react-i18next": "^13",
     "react-layout-kit": "^1",
-    "swr": "^2.2.2"
+    "swr": "^2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17",
     "@lobehub/lint": "latest",
     "@lobehub/ui": "latest",
     "@types/react": "^18",
@@ -65,8 +75,19 @@
     "lint-staged": "^13",
     "lucide-react": "latest",
     "prettier": "^3",
+    "react": "^18",
+    "react-dom": "^18",
+    "remark": "^14",
+    "remark-cli": "^11",
     "semantic-release": "^21",
+    "stylelint": "^15",
     "typescript": "^5",
     "vitest": "latest"
+  },
+  "peerDependencies": {
+    "antd": ">=5",
+    "antd-style": ">=3",
+    "react": ">=18",
+    "react-dom": ">=18"
   }
 }

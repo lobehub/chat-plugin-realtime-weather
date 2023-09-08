@@ -2,7 +2,7 @@
 
 # Changelog
 
-### [Version&nbsp;1.4.2](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.4.1...v1.4.2)
+### [Version 1.4.2](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.4.1...v1.4.2)
 
 <sup>Released on **2023-08-25**</sup>
 
@@ -27,7 +27,7 @@
 
 </div>
 
-### [Version&nbsp;1.4.1](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.4.0...v1.4.1)
+### [Version 1.4.1](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.4.0...v1.4.1)
 
 <sup>Released on **2023-08-24**</sup>
 
@@ -52,7 +52,7 @@
 
 </div>
 
-## [Version&nbsp;1.4.0](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.3.0...v1.4.0)
+## [Version 1.4.0](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.3.0...v1.4.0)
 
 <sup>Released on **2023-08-23**</sup>
 
@@ -77,7 +77,7 @@
 
 </div>
 
-## [Version&nbsp;1.3.0](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.2.2...v1.3.0)
+## [Version 1.3.0](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.2.2...v1.3.0)
 
 <sup>Released on **2023-08-21**</sup>
 
@@ -110,7 +110,7 @@
 
 </div>
 
-### [Version&nbsp;1.2.2](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.2.1...v1.2.2)
+### [Version 1.2.2](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.2.1...v1.2.2)
 
 <sup>Released on **2023-08-20**</sup>
 
@@ -135,7 +135,7 @@
 
 </div>
 
-### [Version&nbsp;1.2.1](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.2.0...v1.2.1)
+### [Version 1.2.1](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.2.0...v1.2.1)
 
 <sup>Released on **2023-08-20**</sup>
 
@@ -160,7 +160,7 @@
 
 </div>
 
-## [Version&nbsp;1.2.0](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.1.2...v1.2.0)
+## [Version 1.2.0](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.1.2...v1.2.0)
 
 <sup>Released on **2023-08-20**</sup>
 
@@ -185,7 +185,7 @@
 
 </div>
 
-### [Version&nbsp;1.1.2](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.1.1...v1.1.2)
+### [Version 1.1.2](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.1.1...v1.1.2)
 
 <sup>Released on **2023-08-19**</sup>
 
@@ -210,7 +210,7 @@
 
 </div>
 
-### [Version&nbsp;1.1.1](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.1.0...v1.1.1)
+### [Version 1.1.1](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.1.0...v1.1.1)
 
 <sup>Released on **2023-08-19**</sup>
 
@@ -235,7 +235,7 @@
 
 </div>
 
-## [Version&nbsp;1.1.0](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.0.0...v1.1.0)
+## [Version 1.1.0](https://github.com/lobehub/chat-plugin-realtime-weather/compare/v1.0.0...v1.1.0)
 
 <sup>Released on **2023-08-19**</sup>
 
@@ -260,7 +260,7 @@
 
 </div>
 
-## Version&nbsp;1.0.0
+## Version 1.0.0
 
 <sup>Released on **2023-08-17**</sup>
 

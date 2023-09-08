@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "build": "dumi build",
-    "dev": "PORT=8110 dumi dev"
+    "dev": "dumi dev"
   },
   "devDependencies": {
-    "babel-plugin-antd-style": "^1.0.4",
+    "babel-plugin-antd-style": "^1",
     "dumi": "^2",
     "dumi-theme-lobehub": "latest"
   }

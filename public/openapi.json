@@ -1,18 +1,13 @@
 {
-  "openapi": "3.0.1",
+  "components": {
+    "schemas": {}
+  },
   "info": {
     "title": "LobeChat Plugins",
     "description": "",
     "version": "1.0.0"
   },
-  "tags": [
-    {
-      "name": "官方插件"
-    },
-    {
-      "name": "官方插件/天气插件（RealTime Weather）"
-    }
-  ],
+  "openapi": "3.0.1",
   "paths": {
     "/api/v1": {
       "post": {
@@ -21,9 +16,7 @@
         "x-apifox-status": "released",
         "deprecated": false,
         "description": "",
-        "tags": [
-          "官方插件/天气插件（RealTime Weather）"
-        ],
+        "tags": ["官方插件/天气插件（RealTime Weather）"],
         "parameters": [],
         "requestBody": {
           "content": {
@@ -36,12 +29,8 @@
                     "title": "城市"
                   }
                 },
-                "required": [
-                  "city"
-                ],
-                "x-apifox-orders": [
-                  "city"
-                ],
+                "required": ["city"],
+                "x-apifox-orders": ["city"],
                 "x-apifox-ignore-properties": []
               },
               "example": {
@@ -144,8 +133,13 @@
       }
     }
   },
-  "components": {
-    "schemas": {}
-  },
-  "servers": []
+  "servers": [],
+  "tags": [
+    {
+      "name": "官方插件"
+    },
+    {
+      "name": "官方插件/天气插件（RealTime Weather）"
+    }
+  ]
 }

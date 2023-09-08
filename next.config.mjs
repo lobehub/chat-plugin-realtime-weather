@@ -39,9 +39,9 @@ const nextConfig = {
     return [
       {
         source: '/docs',
-        destination: '/docs/index.html' // 你的 dumi 构建产物的 URL
+        destination: '/docs/index.html', // 你的 dumi 构建产物的 URL
       },
-    ]
+    ];
   },
 };
 
