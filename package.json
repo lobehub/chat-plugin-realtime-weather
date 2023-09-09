@@ -55,7 +55,7 @@
     "antd-style": "^3",
     "i18next": "^23",
     "i18next-browser-languagedetector": "^7",
-    "next": "13",
+    "next": "13.4.7",
     "query-string": "^8",
     "react-i18next": "^13",
     "react-layout-kit": "^1",
@@ -73,7 +73,6 @@
     "eslint": "^8",
     "husky": "^8",
     "lint-staged": "^13",
-    "lucide-react": "latest",
     "prettier": "^3",
     "react": "^18",
     "react-dom": "^18",
@@ -83,11 +82,5 @@
     "stylelint": "^15",
     "typescript": "^5",
     "vitest": "latest"
-  },
-  "peerDependencies": {
-    "antd": ">=5",
-    "antd-style": ">=3",
-    "react": ">=18",
-    "react-dom": ">=18"
   }
 }

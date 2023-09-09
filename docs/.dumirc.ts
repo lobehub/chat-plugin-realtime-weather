@@ -1,5 +1,4 @@
 import { defineConfig } from 'dumi';
-import { Github } from 'lucide-react';
 
 import { homepage } from '../package.json';
 
@@ -10,7 +9,6 @@ const isProd = process.env.NODE_ENV === 'production';
 const themeConfig = {
   actions: [
     {
-      icon: Github,
       link: homepage,
       openExternal: true,
       text: 'Github',

@@ -45,3 +45,4 @@ test-output
 .vercel
 .next
 /public/docs
+.dumi
