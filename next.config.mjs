@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   crossOrigin: 'anonymous',
-  transpilePackages: ['@lobehub/ui'],
+  transpilePackages: ['@lobehub/ui', 'antd-style'],
   async headers() {
     return [
       {
