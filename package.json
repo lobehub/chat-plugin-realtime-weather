@@ -55,7 +55,7 @@
     "antd-style": "^3",
     "i18next": "^23",
     "i18next-browser-languagedetector": "^7",
-    "next": "13.4.7",
+    "next": "^13.5.5",
     "query-string": "^8",
     "react-i18next": "^13",
     "react-layout-kit": "^1",
