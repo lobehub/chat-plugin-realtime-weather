@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/chat-plugin-realtime-weather",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "private": true,
   "description": "Lobe Chat RealTime Weather Plugin",
   "homepage": "https://github.com/lobehub/chat-plugin-realtime-weather",
