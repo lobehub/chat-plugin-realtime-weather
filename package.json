@@ -64,7 +64,6 @@
   "devDependencies": {
     "@commitlint/cli": "^17",
     "@lobehub/lint": "latest",
-    "@lobehub/ui": "latest",
     "@types/react": "^18",
     "@vercel/node": "^2",
     "@vitest/coverage-v8": "latest",
