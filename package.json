@@ -48,7 +48,7 @@
     "not ie <= 10"
   ],
   "dependencies": {
-    "@lobehub/chat-plugin-sdk": "^1",
+    "@lobehub/chat-plugin-sdk": "^1.17.8",
     "@lobehub/chat-plugins-gateway": "^1",
     "@lobehub/ui": "latest",
     "antd": "^5",
@@ -69,6 +69,8 @@
     "@vitest/coverage-v8": "latest",
     "commitlint": "^17",
     "cross-env": "^7",
+    "dumi": "^2.2.13",
+    "dumi-theme-lobehub": "latest",
     "eslint": "^8",
     "husky": "^8",
     "lint-staged": "^13",
