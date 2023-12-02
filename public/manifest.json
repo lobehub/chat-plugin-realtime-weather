@@ -1,4 +1,5 @@
 {
+  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [
     {
       "url": "https://realtime-weather.chat-plugin.lobehub.com/api/v1",
@@ -17,6 +18,12 @@
     }
   ],
   "identifier": "realtime-weather",
+  "meta": {
+    "avatar": "🌈",
+    "tags": ["weather", "realtime"],
+    "title": "Realtime Weather",
+    "description": "Get realtime weather information"
+  },
   "ui": {
     "url": "https://realtime-weather.chat-plugin.lobehub.com/iframe",
     "height": 310
