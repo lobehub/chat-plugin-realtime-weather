@@ -45,6 +45,7 @@ test-output
 .vercel
 .next
 /public/docs
+/tsconfig.tsbuildinfo
 .dumi
 .env
 bun.lockb
