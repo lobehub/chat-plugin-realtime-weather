@@ -18,9 +18,16 @@
   ],
   "gateway": "http://localhost:3410/api/gateway",
   "identifier": "realtime-weather-dev",
+  "meta": {
+    "avatar": "🌈",
+    "tags": ["weather", "realtime"],
+    "title": "Realtime Weather DEV",
+    "description": "Get realtime weather information"
+  },
   "ui": {
     "url": "http://localhost:3410/iframe",
-    "height": 310
+    "height": 310,
+    "width": 400
   },
   "version": "1"
 }
